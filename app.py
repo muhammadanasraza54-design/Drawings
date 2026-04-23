@@ -11,7 +11,7 @@ st.markdown("Is dashboard ke zariye aap kisi bhi campus ki drawings aur unke One
 @st.cache_data
 def load_data():
     # File name wahi rakhen jo aapne save ki hai
-    df = pd.read_csv('final_fixed_links.csv')
+    df = pd.read_csv('fiinal_fixed_links.csv')
     return df
 
 try:
